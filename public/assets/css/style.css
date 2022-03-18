@@ -29,7 +29,7 @@
     height: 100%;
     width: 100%;
 } */
-.overlayCardIndustrias{
+/* .overlayCardIndustrias{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.856);
@@ -39,7 +39,8 @@
 }
 .imgHover:hover + .overlayCardIndustrias{
     display: block;
-}
+} */
+
 @media (min-width: 992px) {
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;

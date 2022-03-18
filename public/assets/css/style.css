@@ -1,0 +1,67 @@
+
+.fonts3{
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+.pointer {
+    cursor: pointer;
+}
+.bannerConsultingJofer{
+    background-image: url("/assets/images/bannerCosulting.jpg");
+}
+.nosotrosSomos{
+    margin-top: -3%;
+}
+.bannerSpace{
+    height: 16rem;
+    background-image: url("/assets/images/bannerSpace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+/* .bgtelei{
+    background-image: url("/assets/images/telei.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+} */
+.overlayCardIndustrias{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 7%;
+    padding-top: 11%;
+    display: none;
+}
+.imgHover:hover + .overlayCardIndustrias{
+    display: block;
+}
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(min-width:992px){
+    
+}
+@media(max-width:991px){
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+    .nosotrosSomos{
+        margin-top: -20%;
+    }
+    .bannerSpace{
+        height: 10rem;
+    }
+   
+}

@@ -3,6 +3,10 @@
     font-family: 'Nunito Sans', sans-serif !important;
 
 }
+.footer{
+    padding-top: 3%;
+    margin-top: -10%;
+}
 .pointer {
     cursor: pointer;
 }
@@ -55,6 +59,15 @@
     
 }
 @media(max-width:991px){
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #contacto{
+        margin-top: -30%;
+        margin-bottom: -30%;
+    }
     .responsiveMarginCard{
         margin-top: 5%;
     }

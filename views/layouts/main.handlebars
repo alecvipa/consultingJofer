@@ -46,7 +46,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, number: form.number.value }));
+            obj.send(JSON.stringify({ email: form.email.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -60,42 +60,23 @@
         {{{body}}}
     </div>
     {{!-- FOOTER STARTS --}}
-    <div id="footer-wrap" class="is-clearfix paraFont" style="border-top: 1px solid #f3f3f3; padding: 60px 0 60px">
-        <footer id="footer" class="site-footer">
-            <div id="footer-inner" class="site-footer-inner container">
-                <div class="row">
-                    <div class="col-md-8" style="display: flex; flex-wrap: wrap">
-                        <div class="align-logo-footer" style="display: inline-block">
-                            <a href="/">
-                                <img src="assets/images/logoNegro.png" style="width: 207px; height: auto" alt=""
-                                    class="imgLogoFooter">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 right-footer">
-                        <a href="tel:+525559196756" target="_blank">
-                            <span class="icon">
-                                <i class="fas fa-phone-square-alt fa-footer colorBlack"></i>
-                            </span>
-                        </a>
-                        <a href="mailto:info@grupocapitalsatelite.com" target="_blank">
-                            <span class="icon">
-                                <i class="fas fa-envelope fa-footer colorBlack"></i>
-                            </span>
-                        </a>
+    <div class="footer bg-light">
+        <div class="container textr-center">
+            <div class="row">
 
-                        <p><b>Consulting Jofer S.de R.L. de C.V.</b> Todos los derechos reservados. Sus datos están
-                            protegidos por
-                            la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
-                                    política de privacidad</a></span></p>
-
-
-                    </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6 text-center">
+                    <p><b>Consulting Jofer S. de R.L. de C.V.</b> Todos los derechos reservados. Sus datos están
+                        protegidos por
+                        la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
+                                política de privacidad</a></span></p>
                 </div>
+                <div class="col-md-3"></div>
             </div>
-        </footer>
-        <!-- #footer -->
+        </div>
     </div>
+    <br> <br>
+
 
     <script src="/assets/js/script.js"></script>
     <!-- MDB -->

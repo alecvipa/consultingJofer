@@ -25,14 +25,14 @@ app.engine("handlebars", exphbs.engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-// const targetBaseUrl = 'https://www.grupocapitalsatelite.com/inicio';
+const targetBaseUrl = 'https://www.consultingjofer.com/inicio';
 
 
 
 // Routes
 app.get('/', function (req, res) {
-    // res.redirect(targetBaseUrl);
-    res.render('inicio');
+    res.redirect(targetBaseUrl);
+    // res.render('inicio');
 
 });
 app.get('/inicio', function (req, res) {
@@ -67,7 +67,7 @@ app.post("/ajax/email", function (request, response) {
     var htmlBody = `<h2>Correo de contacto</h2><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'hebrit_626@hotmail.com',
+        to: 'informacion@consultingjofer.com',
         subject: '¡Alguien ha dejado sus datos en Consulting Jofer!',
         html: htmlBody
     };

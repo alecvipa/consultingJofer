@@ -23,7 +23,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 3%;
-    margin-top: 5%%;
+    margin-top: 5%;
+}
+.privacidadBanner{
+    height: 16rem;
+    background-image: url("/assets/images/bannerSpace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+
+}
+.tablePrivacidad{
+    margin-bottom: 15%;
 }
 .divCatchUp{
     padding-top: 3%;
